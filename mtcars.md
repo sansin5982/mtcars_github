@@ -39,13 +39,4 @@ Including Plots
 
 You can also embed plots, for example:
 
-    library(ggplot2)
-
-    ## Warning: package 'ggplot2' was built under R version 3.6.3
-
-    ggplot(mtcars, aes(x = factor(cyl), fill = factor(am))) +
-      geom_bar()
-
-![](mtcars_files/figure-markdown_strict/unnamed-chunk-2-1.png)
-
 ![](mtcars_files/figure-markdown_strict/pressure-1.png)

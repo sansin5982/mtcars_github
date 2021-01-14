@@ -23,12 +23,6 @@ summary(mtcars)
 
 You can also embed plots, for example:
 
-```{r}
-library(ggplot2)
-ggplot(mtcars, aes(x = factor(cyl), fill = factor(am))) +
-  geom_bar()
-```
-
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
