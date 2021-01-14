@@ -29,4 +29,6 @@ ggplot(mtcars, aes(x = factor(cyl), fill = factor(am))) +
   geom_bar()
 ```
 
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
